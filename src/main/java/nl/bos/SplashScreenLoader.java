@@ -36,7 +36,8 @@ public class SplashScreenLoader extends Preloader {
                 BackgroundRepeat.NO_REPEAT,
                 BackgroundRepeat.NO_REPEAT,
                 BackgroundPosition.CENTER,
-                BackgroundSize.DEFAULT)));
+                new BackgroundSize(1.0, 1.0, true, true, false, false)
+                )));  
         return new Scene(borderPane, 750, 750);
     }
 
